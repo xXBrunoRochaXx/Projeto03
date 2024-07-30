@@ -1,0 +1,19 @@
+/* Utilidades */
+
+.grid{
+  display: grid; /*Transformando o display em grid */
+}
+
+.grid-flow-col{
+/*essa propriedade é bem parecida com o flex-direction:column, so que para o display GRID */
+  grid-auto-flow: column; 
+
+}
+
+.grid-cols-2{
+  grid-template-columns: 1fr 1fr;
+}
+
+.gap-16{
+  gap: 16px;
+}

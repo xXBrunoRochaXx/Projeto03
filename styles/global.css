@@ -40,24 +40,16 @@ h1, h2, h3{
   font: inherit;
 }
 
+img{
+  max-width: 100%;
+}
+
 .container{
   max-width: 1280px;
   padding-inline: 32px;
   margin-inline: auto;
 }
 
-
-
-
-
-/* Utilidades */
-
-.grid{
-   display: grid; /*Transformando o display em grid */
-}
-
-.grid-flow-col{
-/*essa propriedade é bem parecida com o flex-direction:column, so que para o display GRID */
-   grid-auto-flow: column; 
-
+main{
+  margin-top: 40px;
 }
